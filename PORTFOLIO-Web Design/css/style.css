@@ -1,0 +1,72 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+  background-color: white;
+  background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 23px, #ccc 24px), /* Horizontal lines */
+    linear-gradient(to right, rgb(233, 219, 246) 40px, rgba(0, 0, 0, 0) 41px); /* Vertical margin line */
+  background-size: 50% 25px, 10px 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+    color: rgb(115, 72, 148); 
+}
+
+	
+	
+
+
+#container {
+    /*border:1px dashed white;*/
+    width:800px;
+    margin:auto;
+    /*background: ; */ 
+	
+}
+
+nav ul {
+    list-style: none; 
+    padding-left: 0px; 
+    
+}
+
+nav li {
+  
+    margin: 10px; 
+}
+
+ul.inline li {
+    display: inline;
+}
+
+nav a {
+    color: rgb(108, 48, 154);  
+    font-weight:500; 
+    text-decoration: none; 
+    padding:4px; 
+    border:3px solid white;
+    border-radius: 3px; 
+    
+}
+
+nav a:hover {
+    color: white; 
+    background: rgb(229, 183, 74); 
+   
+   
+}
