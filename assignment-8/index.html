@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>The Hyperlynx.com </title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+ 
+
+	
+</head>
+
+
+<body>
+
+    <header>
+        
+        <h1> Umnia Khan's Web Design Portfolio, Fall 2024 </h1>
+        <h2> Space </h2>
+      
+        </header>
+        
+     
+        <main> 
+           
+     
+            
+            <p> Show and Tell elements
+            </p>
+            
+            
+          
+            
+            <figure class="responsive">
+            <figure> <iframe width="560" height="315" src="https://www.youtube.com/embed/6p-OFHW5WGA?si=HIBc6UxH8Pju_XOu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            </figure>
+                 </figure>
+        </main>
+        
+      <footer>
+    <p>© Copyright <span id="year"></span> Umnia Khan. All rights reserved.</p>
+</footer>
+                    
+     <script>
+         document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+ 
+
+ <div> </div>    <!-- close "container" -->
+     
+    <!-- Link to jQuery on Google Hosted Libraries-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+    
+      $('h1').hide();
+      
+      $('h2').click(function() {
+         // $('h1').show(); 
+          //$('h1').slideDown(); 
+          ('h1').fadeIn(4000); 
+          
+          
+          
+          
+        }); //close .click function
+      
+
+  }); //close .ready()
+</script>
+
+
+                    </body> 
+	
+</html> 
